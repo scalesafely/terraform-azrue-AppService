@@ -79,7 +79,7 @@ resource "azurerm_linux_web_app" "app" {
 }
 
 resource "azurerm_storage_account" "stac_webapp" {
-  name                             = var.stac_webapp_name
+  name                             = "stac_webapp"
   location                         = var.location
   resource_group_name              = var.resource_group_name
   is_hns_enabled                   = true

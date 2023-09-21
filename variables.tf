@@ -15,10 +15,6 @@ variable "app_name" {
   type    = string
 }
 
-variable "stac_webapp_name" {
-  type    = string
-}
-
 variable "docker_image_name" {
   type    = string
 }
